@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+* {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    /* background-color: black(8, 109, 146, 0.9); */
+    position: relative;
+    
+}
+
+html {
+    min-height: 100%;
+    background: linear-gradient(#01091b, #11011b);
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    color: white;
+}
+
+p {
+    color: white;
+    font-size: 35px;
+}
+
+h1{    
+    padding-top: 20px;
+    color: white;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+h2 {
+    padding-top: 20px;
+    color: white;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+h3 {
+    padding-top: 30px;
+    color: white;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.form-basic-design {
+    margin-top: 100px;
+    width: 400px;
+    height: 360px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    border-radius: 18px;
+    font-family: 'Rubik', sans-serif;
+    transition: 0.2s;
+    box-shadow: 0px 0px 20px 0px rgba(255, 135, 247, 0.2);
+}
+
+.form-basic-design:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: 0.2s;
+    box-shadow: 0px 0px 20px 0px rgba(255, 135, 247, 0.5);
+}
+
+.bxs-user-circle{
+    margin-top: 15px;
+    font-size: 70px;
+    overflow: hidden;
+}
+
+.actual-form {
+    padding-top: 2ch;
+}
+
+.field {
+    padding: 15px;
+    text-align: left;
+}
+
+.navbar{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.navbar a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    transition: 0.2s;
+}
+
+.navbar a:hover{
+    transition: 0.2s;
+    color: #6940f0;
+}
+
+.navbar a:visited{
+    color: white;
+}
+
+label {
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    font-family: inherit;
+    font-size: 14px;
+    margin: 35px;
+    padding: 10px;
+    text-align: left;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.spanDesign {
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background-color: #2e205a;
+    color: white;
+    overflow: hidden;
+}
+
+input {
+    float: right;
+    right: 35px;
+    width: 182px;
+    height: 25px;
+    border-radius: 7px;
+    border: 0.01cm solid rgb(255, 255, 255, 0.5);
+    transition: 0.3s;
+    background: transparent;
+    color: white;
+}
+
+input:hover {
+    transition: 0.08s;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px 0px rgba(255, 135, 247, 0.8);
+}
+
+input:focus {
+    transition: 0.08s;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px 0px rgba(255, 135, 247, 0.8);
+    outline: none;
+}
+
+form {
+    width: 300px;
+}
+
+.btn-box {
+    float: none;
+    margin-left: 20%;
+    font-family: 'Rubik', sans-serif;
+    text-transform:uppercase;
+    cursor: pointer;
+    line-height: 1;
+    border-radius: 6px;
+    font-size: 15px;
+    width: 185px;
+    height: 45px;
+    border: 1px solid rgba(96, 96, 96, 0.5);
+    font-weight: 500;
+    color: white;
+    background-color: transparent;
+    margin-top: 35px;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.btn-box:hover {
+    color: white;
+    background-color: rgb(134, 35, 126);
+    box-shadow: 0px 0px 20px 0px rgba(255, 135, 247, 0.2);
+}
+
+.try-again-button {
+    float: none;
+    margin-left: 10%;
+    font-family: 'Rubik', sans-serif;
+    text-transform:uppercase;
+    cursor: pointer;
+    line-height: 1;
+    border-radius: 6px;
+    font-size: 15px;
+    width: 185px;
+    height: 45px;
+    border: 1px solid rgba(96, 96, 96, 0.5);
+    font-weight: 500;
+    color: white;
+    background-color: rgb(134, 35, 126);
+    margin-top: 15px;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.try-again-button:hover {
+    color: white;
+    background-color: transparent;
+    box-shadow: 0px 0px 20px 0px rgba(255, 135, 247, 0.2);
+}
+
+#monster-hey{
+    margin-top: 25px;
+    width: 450px;
+    height: 450px;
+}
