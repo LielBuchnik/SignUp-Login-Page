@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../Styles/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Not Calculator</title>
+</head>
+
+<body>
+
+    <div class="container">
+            <p></p>
+            <div class="form-basic-design" >
+                <h2>LOG IN</h2>
+                <div><i class='bx bxs-user-circle' ></i></div>
+                <div class="actual-form">
+                    <div class="field">
+                        <label for="fname">first name</label>
+                        <input name="fname" for="fname" id="fname" placeholder="Liel" />
+                    </div>
+                    <div class="field">
+                        <label for="lname">last name</label>
+                        <input type="text" name="lname" for="lname" id="lname" placeholder="Buchnik" />
+                    </div>
+                    </div>
+                    <input type="submit" class="btn-box" value="login" onclick="login_handler(fname.value, lname.value)"/>
+                </div>
+            </div>
+    </div>
+    </div>
+
+
+    <script src="../scripts/login.js"></script>
+</body>
+
+</html>
